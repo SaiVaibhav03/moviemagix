@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MovieMagent</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/web-icon.png" type="image">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </link>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Akronim&family=Bungee+Hairline&family=Codystar:wght@300&family=Coiny&family=Creepster&family=Gaegu:wght@300;400;700&family=Jacques+Francois+Shadow&family=Londrina+Outline&family=Londrina+Shadow&family=Moirai+One&family=New+Rocker&family=Nothing+You+Could+Do&family=Rampart+One&family=Rock+Salt&family=Rubik+Doodle+Shadow&family=Rubik+Moonrocks&family=Tangerine&display=swap"
+        rel="stylesheet">
+    </link>
+    <!-- 
+        01: 'Akronim', system-ui;               02: 'Bungee Hairline', sans-serif;      03: 'Codystar', sans-serif;   
+        04: 'Coiny', system-ui;                 05: 'Creepster', system-ui;             06: 'Gaegu', sans-serif;
+        07: 'Jacques Francois Shadow', serif;   08: 'Londrina Outline', sans-serif;     09: 'Londrina Shadow', sans-serif;      
+        10: 'Moirai One', system-ui;            11: 'New Rocker', system-ui;            12: 'Nothing You Could Do', cursive;
+        13: 'Rampart One', sans-serif;          14: 'Rock Salt', cursive;               15: 'Rubik Doodle Shadow', system-ui;   
+        16: 'Rubik Moonrocks', sans-serif;      17: 'Tangerine', cursive;
+    -->
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <div class="popup-inactive"></div>
+    <div class="searchbar-outline">
+        <div class="searchbar">
+            <span>MovieMagnet</span>
+            <label for="searchbar-input">Search</label>
+            <input type="text" class="searchbar-input" id="searchbar-input" placeholder="Search Your Favourite Movie">
+            <button class="search-btn">
+                <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
+                <img alt="">
+            </button>
+        </div>
+        <form class="filters-outline">
+            <button id="now_playing" class="unclicked">Now Playing</button>
+            <button id="popular" class="unclicked">Popular</button>
+            <button id="top_rated" class="unclicked">Top Rated</button>
+            <button id="upcoming" class="unclicked">Upcoming</button>
+            <button id="trending" class="unclicked">Trending</button>
+            <button id="28" class="unclicked">Action</button>
+            <button id="12" class="unclicked">Adventure</button>
+            <button id="16" class="unclicked">Animation</button>
+            <button id="35" class="unclicked">Comedy</button>
+            <button id="80" class="unclicked">Crime</button>
+            <button id="99" class="unclicked">Documentary</button>
+            <button id="18" class="unclicked">Drama</button>
+            <button id="10751" class="unclicked">Family</button>
+            <button id="14" class="unclicked">Fantasy</button>
+            <button id="36" class="unclicked">History</button>
+            <button id="27" class="unclicked">Horror</button>
+            <button id="10402" class="unclicked">Music</button>
+            <button id="9648" class="unclicked">Mystery</button>
+            <button id="10749" class="unclicked">Romance</button>
+            <button id="878" class="unclicked">Science Fiction</button>
+            <button id="53" class="unclicked">Thriller</button>
+            <button id="10752" class="unclicked">War</button>
+        </form>
+    </div>
+    <div class="movies-container-outline ">
+    </div>
+    <div class="nextPage">
+        <span class="pages unclicked"> Start Page </span>
+        <span class="pages unclicked"> Previous Page</span>
+        <span class="pages unclicked">Current Page</span>
+        <span class="pages unclicked">Next Page </span>
+        <span class="pages unclicked">End Page </span>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
+
+<!-- <i class="fa-solid fa-angles-right fa-flip-horizontal"></i>
+<i class="fa-solid fa-angle-right fa-flip-horizontal"></i>
+<i class="fa-solid fa-angle-right"></i>
+<i class="fa-solid fa-angles-right"></i> -->
