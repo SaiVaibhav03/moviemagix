@@ -1,7 +1,7 @@
 import React from "react";
 import { CssBaseline } from "@mui/material";
 import './App.css'
-import PageRoutes from "./Routes/PageRoutes.jsx"
+import PageRoutes from "./PageRoutes/PageRoutes.jsx"
 function App(){
     return(
         <>
