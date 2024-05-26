@@ -1,0 +1,17 @@
+    ◎ Required Installation ◎
+
+●   vite        ~   $ npm create vite@latest ✅
+●   mui         ~   $ npm install @mui/material @emotion/react @emotion/styled ✅ 
+●   mui icons   ~   $ npm install @mui/icons-material ✅
+●   npm         ~   $ npm install ✅
+●   router      ~   $ npm i react-router-dom ✅
+●   mongodb ❌
+
+
+
+   Front Page
+
+Responsive Navbar/Appbar
+
+
+◇●○◆◎◉
