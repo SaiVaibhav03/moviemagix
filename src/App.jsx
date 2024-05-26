@@ -1,10 +1,13 @@
 import React from "react"
 import "./App.css"
+import { CssBaseline } from "@mui/material"
+import PageRoutes from "./routes/PageRoutes.jsx"
 
 function App(){
     return(
         <>
-            <h1>hi</h1>
+            <CssBaseline />
+            <PageRoutes />
         </>
     )
 }
