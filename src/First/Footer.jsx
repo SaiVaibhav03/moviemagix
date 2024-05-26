@@ -28,7 +28,7 @@ const lielement = {
     margin: "15px",
 }
 
-function WebsiteDetails(){
+function Footer(){
     return(
         <Container>
             <Box sx={{ width: "100%", m: 2 }}>
@@ -150,7 +150,7 @@ function WebsiteDetails(){
     )
 }
 
-export default WebsiteDetails;
+export default Footer;
 
 
 

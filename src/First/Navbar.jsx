@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 
 const NavbarItems = ["Home", "Movies", "TV Series", "Popular", "Now Playing"]
 
-function FirstPageNavbar(){
+function Navbar(){
     const [anchorElNav, setAnchorElNav] = useState(null)
 
     const handleOpenNavMenu = (event) => {
@@ -67,6 +67,6 @@ function FirstPageNavbar(){
     );
 }
 
-export default FirstPageNavbar;
+export default Navbar;
 
  

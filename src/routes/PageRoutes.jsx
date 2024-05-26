@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-import FirstPage from "../First/FirstPage.jsx";
+import FirstPage from "../First/FirstPage.jsx"
 // import HomePage from "../HomePage/HomePage.jsx";
 
 

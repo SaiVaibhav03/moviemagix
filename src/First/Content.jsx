@@ -1,6 +1,5 @@
-import React from 'react'
 import { Container, Box, Typography, Button, Grid, } from "@mui/material";
-import FirstPageSearchbar from "./FirstPageSearchbar.jsx"
+import SearchBar from "./SearchBar.jsx";
 import ArrowCircleRightIcon from '@mui/icons-material/ArrowCircleRight';
 import { useNavigate } from "react-router-dom";
 
@@ -49,7 +48,7 @@ function Content(){
 
             <Box sx={{ m: 1, p:2, pb: 4}}>
 
-                <FirstPageSearchbar />
+                <SearchBar />
 
                 <Grid container>
                     <Grid 

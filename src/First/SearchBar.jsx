@@ -4,7 +4,7 @@ import IconButton from '@mui/material/IconButton';
 import SearchIcon from '@mui/icons-material/Search';
 import { useNavigate } from 'react-router-dom';
 
-function FirstPageSearchBar(){  
+function SearchBar(){  
     const [inputValue, setInputValue] = useState("");    
     const handleInputChange = (evt) => {
         setInputValue(evt.target.value)
@@ -59,4 +59,4 @@ function FirstPageSearchBar(){
     )
 }
 
-export default FirstPageSearchBar;
+export default SearchBar;
