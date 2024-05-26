@@ -1,3 +1,4 @@
+import React from 'react'
 import { Container, Box, Typography, Button, Grid, } from "@mui/material";
 import FirstPageSearchbar from "./FirstPageSearchbar.jsx"
 import ArrowCircleRightIcon from '@mui/icons-material/ArrowCircleRight';
