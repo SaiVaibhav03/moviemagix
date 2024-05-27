@@ -1,7 +1,7 @@
 import { Container, Box, Typography, Button, Grid, } from "@mui/material";
 import SearchBar from "./SearchBar.jsx";
 import ArrowCircleRightIcon from '@mui/icons-material/ArrowCircleRight';
-import { useNavigate } from "react-router-dom";
+import { redirect, useNavigate } from "react-router-dom";
 
 
 const ContainerCustomStyles = (props) => (
@@ -11,7 +11,7 @@ const ContainerCustomStyles = (props) => (
             borderRadius: 6, position: "relative",
             backgroundImage: {
                 xs: "none",
-                md: "url('https://hianime.to/images/anw-min.webp?v=0.1')",
+                md: `url(Content_Background.png)`,
             },
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
@@ -35,7 +35,11 @@ function Content(){
                     display: "flex", justifyContent:"start", alignItems: "center",
                     fontFamily: "Monospace",
                     position: "static",
+                    "&:hover":{
+                        cursor: "pointer"
+                    }
                 }}
+                onClick={() => Navigate("/home")}
             >
                 <Typography component="span" sx={{color: "#ffbade", fontSize: "4rem"}}>
                     M
@@ -52,7 +56,7 @@ function Content(){
 
                 <Grid container>
                     <Grid 
-                        item xs={10} md={8} lg={6} 
+                        item xs={10} md={6}
                         sx={{
                             m: 1, p:2, height: 60,  
                             overflow: 'hidden',

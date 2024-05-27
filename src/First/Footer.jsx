@@ -40,7 +40,7 @@ function Footer(){
                 </Typography>
             </Box>
             <Grid container>
-                <Grid item xs={10} sx={{ mt: 1, p: 1, }} textAlign={"justify"}>
+                <Grid item xs={12} lg={9} sx={{ mt: 1, p: 1, }} textAlign={"justify"}>
                     <HeadingTypography>
                         MovieMagix - The best site to know about movies and tv series online for Free.
                     </HeadingTypography>

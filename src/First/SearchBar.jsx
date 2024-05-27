@@ -17,7 +17,7 @@ function SearchBar(){
     }
     return(
         <Grid container spacing={1}>
-            <Grid item xs={10} md={8} lg={6} xl={6}>
+            <Grid item xs={10} md={6}>
                 <TextField
                     onChange={handleInputChange} 
                     variant="outlined" 
